@@ -1,0 +1,57 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('./ConcertOne-Regular.ttf');
+}
+.clr{
+    background-color:black;
+}
+.height{
+     height:70px;
+     margin-top:20px; 
+    
+ }
+ .padd{
+     padding-bottom:15px;
+     padding-right:5px;
+     
+     
+ }
+ .social-icons{
+     float:left;
+ }
+ .round{
+      padding:14px 11px 0px;
+      border-radius:50%;
+      border-color:black;
+      border-style: solid;
+    border-width: 1px;
+ }
+ .back{
+     background-color:white; 
+ }
+ .clrr{
+     background-color: whitesmoke;
+ }
+ .fnt{
+     font-family: myFirstFont;
+ }
+ .my-container {
+    position: relative;
+    overflow: hidden;
+}
+.my-container h1 {
+    padding: 200px;
+    position: relative;
+    z-index: 2;
+} 
+.my-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+.size{
+    font-size: 22px;
+}
